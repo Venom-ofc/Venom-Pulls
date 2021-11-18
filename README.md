@@ -44,9 +44,7 @@ cd Venom-Pulls bash Venompulls
 
 ## 𝐑𝐞𝐝𝐞𝐬 𝐬𝐨𝐜𝐢𝐚𝐢𝐬 
 
-#### 𝐆𝐫𝐮𝐩𝐨: 
-
-https://chat.whatsapp.com/CtDb7WeHICiI8iO4BZeZMO  
+#### 𝐆𝐫𝐮𝐩𝐨: https://chat.whatsapp.com/CtDb7WeHICiI8iO4BZeZMO  
 
 #### 𝐜𝐨𝐧𝐭𝐚𝐭𝐨: https://wa.me/37122291651 
 
