@@ -36,7 +36,7 @@ function access()
         [[ ${ret} -eq 11 ]] && return 11
 
         if [[ ${ret} -eq 0 ]]; then
-            if [[ ${inputuse} == Hater ]]; then
+            if [[ ${inputuse} == Venompulls ]]; then
                 printf " Okay...$end\n"
                 sleep 1
                 break
@@ -69,7 +69,7 @@ function access()
         [[ ${ret} -eq 11 ]] && return 11
 
         if [[ ${ret} -eq 0 ]]; then
-            if [[ ${inputuse} == KoRn ]]; then
+            if [[ ${inputuse} == Venompulls ]]; then
                 printf " Okay...$end\n"
                 sleep 1
                 > .sl
@@ -296,7 +296,7 @@ function gerador_cpf()
         cpf=${cpf}${digito1}
         clear
         banner
-        printf "\n ${blue}CPF GAREDO: ${cyan}${cpf} ${end}\n"
+        printf "\n ${blue}CPF GERADO: ${cyan}${cpf} ${end}\n"
         cpf=${nome}
         return_menu
         [[ $? -eq 1 ]] && return 0
@@ -304,7 +304,7 @@ function gerador_cpf()
 }
 function loading()
 {
-    printf "${blue} Carregando"
+    printf "${blue} 🔍Carregando🔍"
     sleep 0.1
     printf "${cyan}..."
     sleep 0.1
@@ -334,13 +334,13 @@ function loading()
 function new_script()
 {
     banner
-    printf "${blue}\n Name for the script: ${cyan}"
+    printf "${blue}\n Digite o nome da script: ${cyan}"
     read_empty
     ret="$?"
     [[ ${ret} -eq 11 ]] && return 11
 
     if [[ ${ret} -eq 0 ]]; then
-        [[ -f ${inputuse} ]] && printf "${red} The name already exists" && sleep 1 && return 0 || > ${inputuse}
+        [[ -f ${inputuse} ]] && printf "${red} O nome ja existe" && sleep 1 && return 0 || > ${inputuse}
         script="${inputuse}"
         chmod u+x ${script}
         nano ${script}
@@ -350,7 +350,7 @@ function _nmap()
 {
     while :; do
         banner
-        printf "\n\e[34m Ex.: google.com ou youtu.be\n Host: \e[36m"
+        printf "\n\e[34m Exemplo.: google.com ou youtu.be\n Host: \e[36m"
         read_empty
         ret="$?"
         [[ ${ret} -eq 11 ]] && return 11
