@@ -22,24 +22,27 @@
 ``` 
 pkg update -y && pkg upgrade -y 
 
-pkg install -y git 
+pkg install git -y 
 
 git clone https://github.com/Venom-ofc/Venom-Pulls
 
-cd Venom-Pulls bash Venompulls 
+cd Venom-Pulls 
 
+bash Venompulls 
 ``` 
+
 ## 𝐂𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐩𝐚𝐫𝐚 𝐢𝐧𝐬𝐭𝐚𝐥𝐚ç𝐚𝐨 𝐧𝐨 𝐋𝐢𝐧𝐮𝐱 
 
 ``` 
 sudo apt-get update -y && upgrade -y
 
-sudo apt-get install -y git 
+sudo apt-get install git -y
 
 git clone https://github.com/Venom-ofc/Venom-Pulls
 
-cd Venom-Pulls bash Venompulls
+cd Venom-Pulls 
 
+bash Venompulls
 ``` 
 
 ## 𝐑𝐞𝐝𝐞𝐬 𝐬𝐨𝐜𝐢𝐚𝐢𝐬 
